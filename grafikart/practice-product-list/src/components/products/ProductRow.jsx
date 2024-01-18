@@ -4,7 +4,7 @@ export function ProductRow({product}) {
     
     return <tr>
         <td style={style}>{product.name}</td>
-        <td>{product.product}</td>
+        <td>{product.price}</td>
     </tr>
 
 }

@@ -1,6 +1,8 @@
+/**
+ * @param {string} name 
+ */
 export function ProductCategoryRow({name}) {
     return <tr>
-        <td>{name}</td>
-        <td></td>
+        <td colSpan={2}><strong>{name}</strong></td>
     </tr>
 }
